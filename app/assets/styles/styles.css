@@ -1,0 +1,16 @@
+@import url("http://fonts.cdnfonts.com/css/gilroy-bold?styles=20876,20879");
+@import url("http://fonts.cdnfonts.com/css/chronicle-display");
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply relative text-white bg-dark-green;
+    font-family: "Gilroy-Medium", "sans-serif";
+  }
+}

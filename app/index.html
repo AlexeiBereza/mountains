@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="container absolute z-50 flex items-center justify-between py-5 text-white transform -translate-x-1/2 bg-transparent md:py-10 left-1/2">
+      <div class="text-2xl font-medium sm:text-logo font-chronicle">MNTN</div>
+      <nav class="hidden md:block">
+        <ul class="justify-between text-lg md:flex w-72">
+          <li><a href="#">Equipment</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </nav>
+      <div class="items-center hidden md:flex"><img src="./assets/images/icons/profile.svg" class="w-6 h-6 mr-2" /><span>Account</span></div>
+    </header>
+    <main class="relative">
+      <div class="relative w-full h-[120vh] overflow-hidden hero">
+        <div data-speed="-0.2" class="absolute w-full h-screen bg-cover bg-hero-skies"></div>
+        <div data-speed="0.15" class="absolute w-full h-full bg-cover -bottom-1/4 bg-hero-mountains translate"></div>
+        <div data-speed="-0.3" class="absolute w-full h-full bg-cover bg-position-custom -bottom-2/3.5 bg-hero-grass translate"></div>
+        <div class="container relative w-full h-full">
+          <ul class="absolute z-20 flex-col items-center justify-start hidden transform -translate-y-1/2 md:flex left-2 w-7 top-1/2">
+            <h5 class="mb-20 text-lg text-white transform rotate-90 pl-14 font-gilroy-bold whitespace-nowrap">Follow us</h5>
+            <li class="mb-5">
+              <a href="#"><img src="./assets/images/icons/instagram.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="./assets/images/icons/twitter.svg" alt="" /></a>
+            </li>
+          </ul>
+          <div class="absolute w-full z-50 items-center flex flex-col md:block text-center md:text-left sm:w-2/3 xl:w-[950px] transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/3 md:top-1/2">
+            <h4 class="items-center mb-5 text-sm uppercase sm:flex lg:text-lg lg:mb-7 font-gilroy-bold text-accent tracking-extrawide"><span class="w-[4.5rem] h-0.5 sm:mr-8 mr-4 md:inline-block bg-accent hidden"></span>A hiking guide</h4>
+            <h1 class="xl:text-[5.5rem] lg:text-6xl md:text-5xl text-3xl mb-6 text-white font-chronicle font-light leading-tight">Be Prepared For The<br />Mountains And Beyond!</h1>
+            <a href="#guide" class="flex text-lg text-white font-gilroy-bold">scroll down <img src="./assets/images/icons/arrow-down.svg" class="ml-4" alt="" /></a>
+          </div>
+          <ul class="absolute z-20 flex-col hidden text-right transform -translate-y-1/2 cursor-pointer md:flex right-2 md:right-2 font-gilroy-bold top-1/2">
+            <li class="py-4 pr-8 text-lg border-white border-r-3">Start</li>
+            <li class="py-4 pr-8 text-lg transition-all border-white border-opacity-50 border-r-3 hover:border-opacity-100">01</li>
+            <li class="py-4 pr-8 text-lg transition-all border-white border-opacity-50 border-r-3 hover:border-opacity-100">02</li>
+            <li class="py-4 pr-8 text-lg transition-all border-white border-opacity-50 border-r-3 hover:border-opacity-100">03</li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="guide" class="relative z-40 w-full pt-6 -mt-28">
+        <div class="absolute left-0 w-full z-negative h-96 -top-68 bg-gradient-to-t from-dark-green"></div>
+        <div class="container">
+          <div class="relative z-20 flex flex-col items-center justify-between mx-auto mb-28 sm:mb-48 md:flex-row">
+            <div class="relative md:max-w-sm lg:max-w-xl xl:max-w-[730px] lg:pl-14 xl:pl-36">
+              <span class="absolute bottom-full pt-6 transform translate-y-1/2 -left-1.5 leading-[240px] opacity-10 font-gilroy-bold xl:text-huge text-large lg:text-very-large">01</span>
+              <h3 class="flex items-center mb-5 text-sm uppercase sm:text-lg sm:mb-7 font-gilroy-bold text-accent tracking-extrawide"><span class="sm:w-[4.5rem] w-10 h-0.5 sm:mr-8 mr-4 inline-block bg-accent"></span>Get Started</h3>
+              <h2 class="lg:text-6.5xl md:text-4xl text-3xl font-chronicle font-light lg:leading-tight sm:mb-7 mb-3">What level of hiker are you?</h2>
+              <div class="mb-3 aspect-w-16 aspect-h-9 md:hidden">
+                <img class="object-cover object-bottom w-full" src="./assets/images/image1.jpg" alt="" />
+              </div>
+              <p class="mb-3 text-sm leading-6 sm:leading-8 sm:text-lg sm:mb-7">Determining what level of hiker you are can be an important tool when planning future hikes. This hiking level guide will help you plan hikes according to different hike ratings set by various websites like All Trails and Modern Hiker. What type of hiker are you – novice, moderate, advanced moderate, expert, or expert backpacker?</p>
+              <a class="flex items-center text-accent" href="#">read more <img class="inline-block ml-6" src="./assets/images/icons/arrow-right.svg" /></a>
+            </div>
+            <img class="hidden w-full md:block md:max-w-xs lg:max-w-sm xl:max-w-md 2xl:max-w-xl" src="./assets/images/image1.jpg" alt="" />
+          </div>
+
+          <div class="relative z-10 flex flex-col items-center justify-between mx-auto mb-28 sm:mb-48 md:flex-row-reverse">
+            <div class="relative md:max-w-sm lg:max-w-xl xl:max-w-[730px] lg:pl-14 xl:pl-36">
+              <span class="absolute bottom-full pt-6 transform translate-y-1/2 -left-1.5 leading-[240px] opacity-10 font-gilroy-bold xl:text-huge text-large lg:text-very-large">02</span>
+              <h3 class="flex items-center mb-5 text-sm uppercase sm:text-lg sm:mb-7 font-gilroy-bold text-accent tracking-extrawide"><span class="sm:w-[4.5rem] w-10 h-0.5 sm:mr-8 mr-4 inline-block bg-accent"></span>Hiking Essentials</h3>
+              <h2 class="lg:text-6.5xl md:text-4xl text-3xl font-chronicle font-light lg:leading-tight sm:mb-7 mb-3">Picking the right Hiking Gear!</h2>
+              <div class="mb-3 aspect-w-16 aspect-h-9 md:hidden">
+                <img class="object-cover w-full" src="./assets/images/image2.jpg" alt="" />
+              </div>
+              <p class="mb-3 text-sm leading-6 sm:leading-8 sm:text-lg sm:mb-7">The nice thing about beginning hiking is that you don’t really need any special gear, you can probably get away with things you already have. Let’s start with clothing. A typical mistake hiking beginners make is wearing jeans and regular clothes, which will get heavy and chafe wif they get sweaty or wet.</p>
+              <a class="flex items-center text-accent" href="#">read more <img class="inline-block ml-6" src="./assets/images/icons/arrow-right.svg" /></a>
+            </div>
+            <img class="hidden w-full md:block md:max-w-xs lg:max-w-sm xl:max-w-md 2xl:max-w-xl" src="./assets/images/image2.jpg" alt="" />
+          </div>
+
+          <div class="flex flex-col items-center justify-between mx-auto mb-16 md:mb-48 md:flex-row">
+            <div class="relative md:max-w-sm lg:max-w-xl xl:max-w-[730px] lg:pl-14 xl:pl-36">
+              <span class="absolute bottom-full pt-6 transform translate-y-1/2 -left-1.5 leading-[240px] opacity-10 font-gilroy-bold xl:text-huge text-large lg:text-very-large">03</span>
+              <h3 class="flex items-center mb-5 text-sm uppercase sm:text-lg sm:mb-7 font-gilroy-bold text-accent tracking-extrawide"><span class="sm:w-[4.5rem] w-10 h-0.5 sm:mr-8 mr-4 inline-block bg-accent"></span>Where You Go Is The Key</h3>
+              <h2 class="lg:text-6.5xl md:text-4xl text-3xl font-chronicle font-light lg:leading-tight sm:mb-7 mb-3">Understanding Your Map & Timing</h2>
+              <div class="mb-3 aspect-w-16 aspect-h-9 md:hidden">
+                <img class="object-cover w-full" src="./assets/images/image3.jpg" alt="" />
+              </div>
+              <p class="mb-3 text-sm leading-6 sm:leading-8 sm:text-lg sm:mb-7">To start, print out the hiking guide and map. If it’s raining, throw them in a Zip-Lock bag. Read over the guide, study the map, and have a good idea of what to expect. I like to know what my next landmark is as I hike. For example, I’ll read the guide and know that say, in a mile, I make a right turn at the junction...</p>
+              <a class="flex items-center text-accent" href="#">read more <img class="inline-block ml-6" src="./assets/images/icons/arrow-right.svg" /></a>
+            </div>
+            <img class="hidden w-full md:block md:max-w-xs lg:max-w-sm xl:max-w-md 2xl:max-w-xl" src="./assets/images/image3.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="container flex flex-col-reverse pb-12 text-lg md:flex-row">
+      <div class="flex flex-col flex-1">
+        <div class="mb-6 font-medium text-logo font-chronicle">MNTN</div>
+        <p class="max-w-[300px] flex-1 mb-14 md:mb-0">Get out there & discover your next slope, mountain & destination!</p>
+        <p class="opacity-50">Copyright 2019 MNTN, Inc. Terms & Privacy</p>
+      </div>
+      <div class="flex flex-col space-y-14 md:space-y-0 md:flex-row mb-14 md:mb-0">
+        <ul class="space-y-4 md:mr-12 lg:mr-52">
+          <h4 class="mb-6 text-2xl text-accent">More on The Blog</h4>
+          <li><a href="#">MNTN</a></li>
+          <li><a href="#">Contributors & Writers</a></li>
+          <li><a href="#">Write For Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+        <ul class="space-y-4">
+          <h4 class="mb-6 text-2xl text-accent">More on MNTN</h4>
+          <li><a href="#">The Team</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Press</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
