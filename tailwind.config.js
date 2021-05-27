@@ -15,7 +15,7 @@ module.exports = {
         "6.5xl": "64px",
         large: "160px",
         "very-large": "200px",
-        huge: "240px"
+        huge: ["240px", { lineHeight: "15rem" }]
       },
       fontFamily: {
         "gilroy-bold": "Gilroy-Bold",

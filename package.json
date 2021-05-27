@@ -36,8 +36,6 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
-    "gsap": "^3.6.1",
-    "scrollmagic": "^2.0.8",
-    "scrollmagic-plugin-gsap": "^1.0.4"
+    "lazysizes": "^5.3.2"
   }
 }
