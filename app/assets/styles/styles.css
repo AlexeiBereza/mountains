@@ -5,10 +5,6 @@
 @import "tailwindcss/utilities";
 
 @layer base {
-  html {
-    scroll-behavior: smooth;
-  }
-
   body {
     @apply relative text-white bg-dark-green;
     font-family: "Gilroy-Medium", "sans-serif";
