@@ -36,6 +36,7 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
-    "lazysizes": "^5.3.2"
+    "lazysizes": "^5.3.2",
+    "tailwindcss-scroll-snap": "^1.1.0"
   }
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="snap snap-both snap-mandatory">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,19 +7,21 @@
     <title>MNTN</title>
   </head>
   <body>
-    <header class="container absolute z-50 flex items-center justify-between py-5 text-white transform -translate-x-1/2 bg-transparent md:py-10 left-1/2">
-      <div class="text-2xl font-medium sm:text-logo font-chronicle">MNTN</div>
-      <nav class="hidden md:block">
-        <ul class="justify-between text-lg md:flex w-72">
-          <li><a href="#">Equipment</a></li>
-          <li><a href="#">About us</a></li>
-          <li><a href="#">Blog</a></li>
-        </ul>
-      </nav>
-      <div class="items-center hidden md:flex"><img src="./assets/images/icons/profile.svg" class="w-6 h-6 mr-2" /><span>Account</span></div>
+    <header class="container absolute top-0 left-0 right-0 z-50 justify-between py-5 text-white bg-transparent md:py-10">
+      <div class="flex items-center justify-between w-full">
+        <div class="text-2xl font-medium sm:text-logo font-chronicle">MNTN</div>
+        <nav class="hidden md:block">
+          <ul class="justify-between text-lg md:flex w-72">
+            <li><a href="#">Equipment</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </nav>
+        <div class="items-center hidden md:flex"><img src="./assets/images/icons/profile.svg" class="w-6 h-6 mr-2" /><span>Account</span></div>
+      </div>
     </header>
     <main class="relative">
-      <div class="relative w-full h-[120vh] overflow-hidden hero">
+      <div class="relative w-full h-[120vh] overflow-hidden hero snap-start">
         <div data-speed="-0.2" class="absolute w-full h-screen bg-cover bg-hero-skies"></div>
         <div data-speed="0.15" class="absolute w-full h-full bg-cover -bottom-1/4 bg-hero-mountains translate"></div>
         <div data-speed="-0.3" class="absolute w-full h-full bg-cover bg-position-custom -bottom-2/3.5 bg-hero-grass translate"></div>
@@ -50,7 +52,7 @@
       <div id="guide" class="relative z-40 w-full pt-6 -mt-28">
         <div class="absolute left-0 w-full z-negative h-96 -top-68 bg-gradient-to-t from-dark-green"></div>
         <div class="container">
-          <div class="relative z-20 flex flex-col items-center justify-between mx-auto mb-28 sm:mb-48 md:flex-row">
+          <div class="relative z-20 flex flex-col items-center justify-between mx-auto mb-28 sm:mb-48 md:flex-row snap-center">
             <div class="relative md:max-w-sm lg:max-w-xl xl:max-w-[730px] lg:pl-14 xl:pl-36">
               <span class="absolute bottom-full pt-6 transform translate-y-1/2 -left-1.5 opacity-10 font-gilroy-bold xl:text-huge text-large lg:text-very-large">01</span>
               <h3 class="flex items-center mb-5 text-sm uppercase sm:text-lg sm:mb-7 font-gilroy-bold text-accent tracking-extrawide"><span class="sm:w-[4.5rem] w-10 h-0.5 sm:mr-8 mr-4 inline-block bg-accent"></span>Get Started</h3>
@@ -64,7 +66,7 @@
             <img class="hidden w-full md:block md:max-w-xs lg:max-w-sm xl:max-w-md 2xl:max-w-xl lazyload" data-src="./assets/images/image1.jpg" alt="" />
           </div>
 
-          <div class="relative z-10 flex flex-col items-center justify-between mx-auto mb-28 sm:mb-48 md:flex-row-reverse">
+          <div class="relative z-10 flex flex-col items-center justify-between mx-auto mb-28 sm:mb-48 md:flex-row-reverse snap-center min-h-[570px]">
             <div class="relative md:max-w-sm lg:max-w-xl xl:max-w-[730px] lg:pl-14 xl:pl-36">
               <span class="absolute bottom-full pt-6 transform translate-y-1/2 -left-1.5 opacity-10 font-gilroy-bold xl:text-huge text-large lg:text-very-large">02</span>
               <h3 class="flex items-center mb-5 text-sm uppercase sm:text-lg sm:mb-7 font-gilroy-bold text-accent tracking-extrawide"><span class="sm:w-[4.5rem] w-10 h-0.5 sm:mr-8 mr-4 inline-block bg-accent"></span>Hiking Essentials</h3>
@@ -78,7 +80,7 @@
             <img class="hidden w-full md:block md:max-w-xs lg:max-w-sm xl:max-w-md 2xl:max-w-xl lazyload" data-src="./assets/images/image2.jpg" alt="" />
           </div>
 
-          <div class="flex flex-col items-center justify-between mx-auto mb-16 md:mb-48 md:flex-row">
+          <div class="flex flex-col items-center justify-between mx-auto mb-16 md:mb-48 md:flex-row snap-center min-h-[570px]">
             <div class="relative md:max-w-sm lg:max-w-xl xl:max-w-[730px] lg:pl-14 xl:pl-36">
               <span class="absolute bottom-full pt-6 transform translate-y-1/2 -left-1.5 opacity-10 font-gilroy-bold xl:text-huge text-large lg:text-very-large">03</span>
               <h3 class="flex items-center mb-5 text-sm uppercase sm:text-lg sm:mb-7 font-gilroy-bold text-accent tracking-extrawide"><span class="sm:w-[4.5rem] w-10 h-0.5 sm:mr-8 mr-4 inline-block bg-accent"></span>Where You Go Is The Key</h3>
@@ -89,12 +91,12 @@
               <p class="mb-3 text-sm leading-6 sm:leading-8 sm:text-lg sm:mb-7">To start, print out the hiking guide and map. If it’s raining, throw them in a Zip-Lock bag. Read over the guide, study the map, and have a good idea of what to expect. I like to know what my next landmark is as I hike. For example, I’ll read the guide and know that say, in a mile, I make a right turn at the junction...</p>
               <a class="flex items-center text-accent" href="#">read more <img class="inline-block ml-6" src="./assets/images/icons/arrow-right.svg" /></a>
             </div>
-            <img class="hidden w-full md:block md:max-w-xs lg:max-w-sm xl:max-w-md 2xl:max-w-xl lazyload" data-src="./assets/images/image3.jpg" alt="" />
+            <img class="hidden w-full ml-auto md:block md:max-w-xs lg:max-w-sm xl:max-w-md 2xl:max-w-xl lazyload" data-src="./assets/images/image3.jpg" alt="" />
           </div>
         </div>
       </div>
     </main>
-    <footer class="container flex flex-col-reverse pb-12 text-lg md:flex-row">
+    <footer class="container flex flex-col-reverse pb-12 text-lg md:flex-row snap-center">
       <div class="flex flex-col flex-1">
         <div class="mb-6 font-medium text-logo font-chronicle">MNTN</div>
         <p class="max-w-[300px] flex-1 mb-14 md:mb-0">Get out there & discover your next slope, mountain & destination!</p>
